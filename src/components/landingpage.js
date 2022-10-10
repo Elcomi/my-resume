@@ -22,7 +22,7 @@ const Landing = () => {
               antd | JavaScript(ES6) | styled component |
               React js | react-hooks | redux
             </p>
-            <h2 className='skills-header'> Mobile Application Skills </h2>
+            <h2 className='skills-header'> Mobile App Skills </h2>
             <p>
               react native | styled component | react native UI Toolkit(react native paper , react native elements) | react navigation
             </p>
