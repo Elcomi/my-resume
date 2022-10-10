@@ -28,9 +28,13 @@ const Landing = () => {
             </p>
             <h2 className='skills-header'> Back-End Skills </h2>
             <p>
-              nodejs(Express) | Firebase | REST-GraphQL | Git(Github)
+              nodejs(Express) | Firebase | REST-GraphQL Api
             </p>
-
+            <h2 className='skills-header'> Other technical Skills </h2>
+            <p>
+              agile software methodologies | Software testing | Git(Github) |
+              Mangement tools(Jira,Clickup)
+            </p>
             <div className='socialss'>
               {/* LinkedIn */}
               <a
