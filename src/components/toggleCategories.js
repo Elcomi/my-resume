@@ -82,7 +82,7 @@ export const toggleCategories = ({ activeTab }) => {
                     style={{ textDecoration: "none", color: "white" }}
                     href="https://drive.google.com/file/d/1MhD9OEp-ModWNouRxFQKX2yDwP_2yJNr/view?usp=sharing"
                   >
-                    check Demo
+                    Watch Demo
                   </a>
                 </Button>
               </CardActions>
@@ -124,7 +124,7 @@ export const toggleCategories = ({ activeTab }) => {
                     style={{ textDecoration: "none", color: "white" }}
                     href="https://drive.google.com/file/d/1My4mcawfpk441c26AcYQhCE_1WR26ewQ/view?usp=sharing"
                   >
-                    check Demo
+                    Watch Demo
                   </a>
                 </Button>
               </CardActions>
@@ -174,6 +174,16 @@ export const toggleCategories = ({ activeTab }) => {
                     href="https://github.com/Elcomi/monster-rolodex"
                   >
                     Check Repo
+                  </a>
+                </Button>
+                <Button style={{ backgroundColor: "#013" }}>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    style={{ textDecoration: "none", color: "white" }}
+                    href="https://monsters-rolodex-opal.vercel.app/"
+                  >
+                    check Demo
                   </a>
                 </Button>
               </CardActions>
