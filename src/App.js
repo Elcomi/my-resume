@@ -14,6 +14,7 @@ const App = () => {
           scroll
         >
           <Navigation>
+            <Link to="/">Home</Link>
             <Link to="/portfolio/resume">Resume</Link>
             <Link to="/portfolio/projects">Projects</Link>
           </Navigation>
