@@ -85,8 +85,9 @@
 /* landing page css */
 
 .avatar-img {
-  height: 250px;
   width: 250px;
+  height: 480px;
+  object-fit: cover;
   border-radius: 10px;
   margin-top: 2em;
 }
@@ -148,8 +149,8 @@
 
 @media (max-width: 575.98px) {
   .avatar-img {
-    height: 220px;
-    width: 220px;
+    height: 380px;
+    width: 200px;
     margin-bottom: 2em;
   }
   .small-font {

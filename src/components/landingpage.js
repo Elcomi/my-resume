@@ -13,7 +13,7 @@ const Landing = () => {
           />
 
           <div className='banner-text'>
-            <h1>Full-satck Web Developer</h1>
+            <h1>React Native Developer</h1>
 
             <hr />
             <h2 className='skills-header'> Front-End Skills </h2>

@@ -20,55 +20,36 @@ export const toggleCategories = ({ activeTab }) => {
         {/* Project 1 */}
         <Grid>
           <Cell col={6} tablet={12}>
-            <Card
-              shadow={5}
-              style={{ minHeight: "100%", minWidth: "100%", margin: "auto" }}
-            >
+            <Card shadow={5} style={{ minWidth: "100%", margin: "auto" }}>
               <CardTitle
                 style={{
-                  color: "#292e49",
-                  height: "300px",
+                  color: "white",
+                  height: "400px",
                   background:
-                    "  url(../img/monster.png) no-repeat center / cover ",
-                }}
-              />
-              <CardTitle
-                style={{
-                  color: "#292e49",
-                  marginBottom: "0",
-                  paddingBottom: "0",
+                    "url(../img/b7r.png) no-repeat center / cover",
                 }}
               >
-                Monster Rolodex
+                B7r Store
               </CardTitle>
               <CardText>
-                A React app which fetches Monster picture, name and email from a REST API endpoint and delivers it in the UI.
+                Developed and maintained React Native components UI , screens, and features for this app at B7r Store Company & Collaborated with other developers to implement new features in a way that is consistent with existing codebase conventions using graphql and apollo client
               </CardText>
               <CardActions border>
-                <Button style={{ backgroundColor: "#013" }} >
+                <Button style={{ backgroundColor: "#013" }}>
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
                     style={{ textDecoration: "none", color: "white" }}
-                    href="https://github.com/Elcomi/monster-rolodex"
+                    href=" https://play.google.com/store/apps/details?id=org.b7r.store"
                   >
-                    Check Repo
+                    check App
                   </a>
                 </Button>
               </CardActions>
             </Card>
           </Cell>
-
-
-        </Grid>
-      </div>
-    );
-  } else if (activeTab === 1) {
-    return (
-      <div className="projects-grid">
-        {/* Project 1 */}
-        <Grid>
           <Cell col={6} tablet={12}>
+            {/* Project 2 */}
             <Card shadow={5} style={{ minWidth: "100%", margin: "auto" }}>
               <CardTitle
                 style={{
@@ -109,7 +90,8 @@ export const toggleCategories = ({ activeTab }) => {
             </Card>
           </Cell>
           <Cell col={6} tablet={12}>
-            {/* Project 2 */}
+            {/* Project 3 */}
+
             <Card shadow={5} style={{ minWidth: "100%", margin: "auto" }}>
               <CardTitle
                 style={{
@@ -148,36 +130,57 @@ export const toggleCategories = ({ activeTab }) => {
               </CardActions>
             </Card>
           </Cell>
+
+        </Grid>
+      </div>
+    );
+  } else if (activeTab === 1) {
+    return (
+
+      <div className="projects-grid">
+        {/* Project 1 */}
+        <Grid>
           <Cell col={6} tablet={12}>
-            {/* Project 3 */}
-            <Card shadow={5} style={{ minWidth: "100%", margin: "auto" }}>
+            <Card
+              shadow={5}
+              style={{ minHeight: "100%", minWidth: "100%", margin: "auto" }}
+            >
               <CardTitle
                 style={{
-                  color: "white",
-                  height: "400px",
+                  color: "#292e49",
+                  height: "300px",
                   background:
-                    "url(../img/b7r.png) no-repeat center / cover",
+                    "  url(../img/monster.png) no-repeat center / cover ",
+                }}
+              />
+              <CardTitle
+                style={{
+                  color: "#292e49",
+                  marginBottom: "0",
+                  paddingBottom: "0",
                 }}
               >
-                B7r Store
+                Monster Rolodex
               </CardTitle>
               <CardText>
-                Developed and maintained React Native components UI , screens, and features for this app at B7r Store Company & Collaborated with other developers to implement new features in a way that is consistent with existing codebase conventions using graphql and apollo client
+                A React app which fetches Monster picture, name and email from a REST API endpoint and delivers it in the UI.
               </CardText>
               <CardActions border>
-                <Button style={{ backgroundColor: "#013" }}>
+                <Button style={{ backgroundColor: "#013" }} >
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
                     style={{ textDecoration: "none", color: "white" }}
-                    href=" https://play.google.com/store/apps/details?id=org.b7r.store"
+                    href="https://github.com/Elcomi/monster-rolodex"
                   >
-                    check App
+                    Check Repo
                   </a>
                 </Button>
               </CardActions>
             </Card>
           </Cell>
+
+
         </Grid>
       </div>
     );

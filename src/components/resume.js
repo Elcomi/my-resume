@@ -20,9 +20,7 @@ const Resume = () => {
 
           <h1 style={{ paddingTop: "1em", fontSize: "bold", color: "white" }}>Ahmed Esmail</h1>
           <p style={{ color: "white", fontSize: 20, maxWidth: 470 }}>
-            I have in the web field just 6 months, learned in it a lot of
-            amazing things fastly because I have a huge goal in limited time
-            so I will keep learning new technologies to reach my goal
+            A React Native Developer with tester experience who have a passion for programming, and I am looking forward to enhancing my skills, Ability to quickly learn recent technologies with a passion for mobile app development. I am eager to join a team of talented developers and help build world-class mobile apps
           </p>
 
         </Cell>

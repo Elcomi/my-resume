@@ -23,8 +23,8 @@ const Projects = () => {
         onChange={(tabId) => setActiveTab({ activeTab: tabId })}
         ripple
       >
-        <Tab style={{ color: "white" }}>React js</Tab>
         <Tab style={{ color: "white" }}>React Native</Tab>
+        <Tab style={{ color: "white" }}>React js</Tab>
         <Tab style={{ color: "white" }}>Node js</Tab>
       </Tabs>
 
