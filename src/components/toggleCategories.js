@@ -165,7 +165,7 @@ export const toggleCategories = ({ activeTab }) => {
               <CardText>
                 A React app which fetches Monster picture, name and email from a REST API endpoint and delivers it in the UI.
               </CardText>
-              <CardActions border>
+              <CardActions style={{ display: "flex", justifyContent: "space-between" }} border>
                 <Button style={{ backgroundColor: "#013" }} >
                   <a
                     rel="noopener noreferrer"
